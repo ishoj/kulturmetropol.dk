@@ -1,0 +1,17 @@
+name = Bysted Core Dependencies
+description = A single reference for all Bysted core feature dependencies.
+core = 7.x
+package = Bysted: Core
+version = 7.x-1.0
+project = bysted_core_dependencies
+dependencies[] = bysted_text_formats
+dependencies[] = bysted_user_roles
+dependencies[] = bysted_linkit_profiles
+features[features_api][] = api:1
+
+
+; Information added by drush on 2012-08-30
+version = "unknown"
+project = "bystedcore"
+datestamp = "1346328720"
+

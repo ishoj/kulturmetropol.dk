@@ -1,0 +1,20 @@
+name = Text formats
+core = 7.x
+package = Bysted: Core
+php = 5.2.4
+version = 7.x-1.0-dev
+project = bysted_text_formats
+dependencies[] = ckeditor_link
+dependencies[] = features
+dependencies[] = media
+dependencies[] = wysiwyg
+features[features_api][] = api:1
+features[filter][] = bysted_html
+features[wysiwyg][] = bysted_html
+
+
+; Information added by drush on 2012-08-30
+version = "unknown"
+project = "bystedcore"
+datestamp = "1346328720"
+

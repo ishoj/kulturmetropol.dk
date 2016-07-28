@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Related Design Elements feature.
+ */
+
+include_once 'bysted_related_elements_displays.features.inc';

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Standard Page (designguide) feature.
+ */
+
+include_once 'bysted_standard_page_designguide_.features.inc';

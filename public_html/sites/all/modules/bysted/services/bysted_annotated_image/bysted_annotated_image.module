@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Image with notes feature.
+ */
+
+include_once 'bysted_annotated_image.features.inc';

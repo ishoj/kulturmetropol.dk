@@ -1,0 +1,11 @@
+name = Linkit Profiles
+description = Linkit Profiles for Bystedcore.
+core = 7.x
+package = Bysted: Core
+version = 7.x-1.0-dev
+project = bysted_linkit_profiles
+dependencies[] = ctools
+dependencies[] = linkit
+features[ctools][] = linkit:linkit_profiles:1
+features[features_api][] = api:1
+features[linkit_profiles][] = bysted_default_linkit

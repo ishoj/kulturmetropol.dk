@@ -1,0 +1,13 @@
+name = Related Design Elements
+description = Related elements views for designguide.
+core = 7.x
+package = Bysted: Display
+php = 5.2.4
+version = unknown
+project = bystedcore
+dependencies[] = ctools
+dependencies[] = views
+datestamp = 1346328720
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:1
+features[views_view][] = bc_related_elements

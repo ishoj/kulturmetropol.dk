@@ -1,0 +1,42 @@
+<?php
+/**
+ * @file
+ * Code for the Design Element Lists feature.
+ */
+
+include_once 'bysted_design_element_lists.features.inc';
+
+/**
+ * Implements hook_block_info().
+ */
+function bysted_design_element_lists_block_info() {
+  $blocks['bysted_list_all_block'] = array(
+    'info' => t('Show all elements'),
+  );
+
+  return $blocks;
+}
+
+/**
+  * Implements hook_block_view().
+  */
+function bysted_design_element_lists_block_view($delta='') {
+  $block = array();
+
+  switch ($delta) {
+    case 'bysted_list_all_block':
+      $block['subject'] = t('Show all elements');
+      $block['content'] = showalllink_contents();
+      break;
+  }
+
+  return $block;
+}
+
+/**
+ * custom html block
+ * @return string
+ */
+function showalllink_contents() {
+  return '<p class="st-indent"><a href="/list/all" class="text-medium link-more">' . t('Show all elements') . '</a></p>';
+}

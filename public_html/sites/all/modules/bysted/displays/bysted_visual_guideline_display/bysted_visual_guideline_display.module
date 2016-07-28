@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Visual guideline feature.
+ */
+
+include_once 'bysted_visual_guideline_display.features.inc';

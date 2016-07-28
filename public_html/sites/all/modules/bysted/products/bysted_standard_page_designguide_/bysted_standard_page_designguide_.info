@@ -1,0 +1,13 @@
+name = Standard Page (designguide)
+description = Standard pages for the designguide.
+core = 7.x
+package = Bysted: Product
+php = 5.2.4
+version = unknown
+project = bystedcore
+dependencies[] = ctools
+dependencies[] = page_manager
+datestamp = 1346328720
+features[ctools][] = page_manager:pages_default:1
+features[features_api][] = api:1
+features[page_manager_handlers][] = node_view_panel_context_2

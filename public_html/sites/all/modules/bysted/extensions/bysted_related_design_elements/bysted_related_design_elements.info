@@ -1,0 +1,16 @@
+name = Related design elements
+description = Extends pages with related design elements field.
+core = 7.x
+package = Bysted: Extensions
+php = 5.2.4
+version = unknown
+project = bystedcore
+dependencies[] = features
+dependencies[] = field_group
+dependencies[] = field_sql_storage
+dependencies[] = node_reference
+datestamp = 1346328720
+features[ctools][] = field_group:field_group:1
+features[features_api][] = api:1
+features[field][] = node-bysted_page-field_related_design_elements
+features[field_group][] = group_design_elements|node|bysted_page|form

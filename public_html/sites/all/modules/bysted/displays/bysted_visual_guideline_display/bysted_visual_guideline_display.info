@@ -1,0 +1,12 @@
+name = Visual guideline
+core = 7.x
+package = Bysted: Display
+version = 7.x-1.0-dev
+project = bysted_visual_guideline_display
+dependencies[] = bysted_annotated_image
+dependencies[] = bysted_core_dependencies
+dependencies[] = ctools
+dependencies[] = page_manager
+features[ctools][] = page_manager:pages_default:1
+features[features_api][] = api:1
+features[page_manager_handlers][] = node_view_panel_context_4

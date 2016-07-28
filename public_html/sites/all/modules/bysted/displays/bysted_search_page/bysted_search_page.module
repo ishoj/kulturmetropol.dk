@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Custom Search Page feature.
+ */
+
+include_once 'bysted_search_page.features.inc';

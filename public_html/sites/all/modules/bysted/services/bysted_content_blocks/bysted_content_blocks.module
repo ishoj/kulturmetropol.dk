@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Content Blocks feature.
+ */
+
+include_once 'bysted_content_blocks.features.inc';

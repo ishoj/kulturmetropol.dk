@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Design Element feature.
+ */
+
+include_once 'bysted_design_element.features.inc';

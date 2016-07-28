@@ -1,0 +1,22 @@
+name = Design Element Pages
+description = Panels pages for design elements.
+core = 7.x
+package = Bysted: Products
+php = 5.2.4
+version = 7.x-1.0-dev
+project = bysted_design_element_pages
+dependencies[] = bysted_core_dependencies
+dependencies[] = bysted_design_element
+dependencies[] = bysted_related_elements_displays
+dependencies[] = ctools
+dependencies[] = page_manager
+features[ctools][] = page_manager:pages_default:1
+features[features_api][] = api:1
+features[page_manager_handlers][] = node_view_panel_context
+
+
+; Information added by drush on 2012-08-30
+version = "unknown"
+project = "bystedcore"
+datestamp = "1346328720"
+
